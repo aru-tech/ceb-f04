@@ -202,9 +202,9 @@ a {
   .header-list li {
     width: 100%;
   }
-  /* .header-list {
-    display: none;
-  } */
+  .header-list {
+    display: block;
+  }
 
   .input[checkbox]:checked ~ img {
     background: red;
