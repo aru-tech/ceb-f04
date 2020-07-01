@@ -1,5 +1,7 @@
 * {
   box-sizing: content-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -15,9 +17,9 @@ body {
   max-width: 70%;
   margin: 0 auto;
   padding: 10px;
-  font-family: Garamond;
+  font-family: "EB Garamond";
   font-size: 18px;
-  color: #5D5D5D;
+  color: #5d5d5d;
 }
 
 .introduction {
@@ -67,7 +69,7 @@ h1,
 h2,
 h3 {
   text-align: center;
-  font-family: Calibri;
+  font-family: "EB Garamond";
   color: #90c53e;
   font-weight: 100;
   letter-spacing: 2.5px;
@@ -104,9 +106,8 @@ figcaption {
 
 p.introduction {
   padding: 6px;
-  text-align: left
+  text-align: left;
 }
-
 
 .food {
   height: 240px;
@@ -121,14 +122,70 @@ p.introduction {
   border-radius: 0 50% 50% 50%;
 }
 
+.menu-icon {
+  font-size: 30px !important;
+  float: right;
+  margin: 30px;
+  display: none !important;
+}
 
+/* Header */
+.header {
+  background-color: black;
+  color: white;
+  height: 60px;
+  font-family: Calibri;
+  position: sticky;
+  top: 0;
+  letter-spacing: 2.5px;
+  display: flex;
+  justify-content: space-around;
+}
 
-
+.header-logo {
+  width: 40%;
+}
+.header-list ul {
+  display: flex;
+}
+.header-logo img {
+  width: 80px;
+  padding-top: 8px;
+  padding-left: 40px;
+}
+.header-list li {
+  line-height: 60px;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 0 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+.header-list li:hover {
+  background-color: white;
+  transition: all 1s;
+  color: black;
+}
 
 @media (max-width: 1000px) {
   .describe {
     flex-direction: column;
     align-items: center;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block !important;
   }
 }
 
@@ -139,7 +196,7 @@ p.introduction {
   }
 
   .founder {
-    order: 1
+    order: 1;
   }
 
   .introduction {
@@ -167,19 +224,19 @@ p.introduction {
     text-align: center;
   }
 
-.food {
-  height: 240px;
-}
+  .food {
+    height: 240px;
+  }
 
-.tosta {
-  border-radius: 50% 0 50% 50%;
-  margin-right: 10px;
-}
+  .tosta {
+    border-radius: 50% 0 50% 50%;
+    margin-right: 10px;
+  }
 
-.fabada {
-  border-radius: 0 50% 50% 50%;
-  margin-left: 10px;
-}
+  .fabada {
+    border-radius: 0 50% 50% 50%;
+    margin-left: 10px;
+  }
 
   .contact-details {
     display: flex;
@@ -187,51 +244,9 @@ p.introduction {
     text-align: center;
   }
 
-}
-
-/* Header */
-.header {
-  background-color: black;
-  color: white;
-  height:110px;
-  font-family: Calibri;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  letter-spacing: 2.5px;
-}
-
-.header-logo{
-  float:left;
-  width:40%;
-}
-.header-logo img{
-	width:36%;
-	padding-top:8px;
-	padding-left:40px;
-}
-.header-list li{
-  float:right;
-  padding:25px 25px;
-  list-style: none;
-  margin-right:20px;
-  font-size:20px;
-  letter-spacing: 1px;
-  
-}
-
-a{
-	color: white;
-	text-decoration:none;
-	display:block;
-}
-a:hover{
-	color:black;
-}
-.header-list li:hover {
-  background-color:white;
-  transition: all 1s;
-  color:black;
+  .header-logo {
+    font-size: 18px;
+    margin: 14px;
+    padding: 20px 20px;
+  }
 }
