@@ -17,7 +17,7 @@ body {
   max-width: 70%;
   margin: 0 auto;
   padding: 10px;
-  font-family: Garamond;
+  font-family: 'EB Garamond';
   font-size: 18px;
   color: #5D5D5D;
 }
@@ -69,7 +69,7 @@ h1,
 h2,
 h3 {
   text-align: center;
-  font-family: Calibri;
+  font-family: 'EB Garamond';
   color: #90c53e;
   font-weight: 100;
   letter-spacing: 2.5px;
@@ -136,7 +136,7 @@ p.introduction {
   background-color: black;
   color: white;
   height:110px;
-  font-family: Calibri;
+  font-family: 'EB Garamond';
   width: 100%;
   position: fixed;
   top: 0;
