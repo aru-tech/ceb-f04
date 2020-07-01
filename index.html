@@ -19,9 +19,9 @@
     <div class="header">
       <div class="header-logo">
         <img src="a.png" />
+        <input type="checkbox" id="icon-logo" />
+        <label class="fa fa-bars" for="icon-logo" aria-hidden="true"></label>
       </div>
-      <label class="fa fa-bars" for="icon-logo" aria-hidden="true"></label>
-      <input type="checkbox" id="icon-logo" />
       <div class="header-list">
         <ul>
           <li><a href="#">Menu</a></li>
@@ -74,12 +74,30 @@
         </ul>
       </div>
       <!-- image Menu -->
-      <div class="image-menu">
-        <figure>
+      <div class="image-menu-top">
+		<figure>
+		  <figcaption>
+            Paella Vegetariana, hidangan klasik Spanyol yang ramah untuk vegetarian
+          </figcaption>
+          <img
+            src="https://food-images.files.bbci.co.uk/food/recipes/veggie_paella_29921_16x9.jpg"
+            class="paella food-top"/>
+        </figure>
+		
+		<figure>
+		  <figcaption>
+            Gazpacho, sup sayur dingin asli Andalusia
+          </figcaption>
+          <img
+            src="https://realfood.tesco.com/media/images/RFO-1400x919-Gazpacho-mini-72803635-4081-4364-8857-edc6ac3d2309-0-1400x919.jpg"
+            class="gazpacho food-top"/>
+        </figure>
+	  </div>
+      <div class="image-menu">		
+		<figure>
           <img
             src="  https://i.pinimg.com/474x/6c/1f/7a/6c1f7af8b2a11a83ce8bd7036645fd1c--pizzas-sandwiches.jpg"
-            class="tosta food"
-          />
+            class="tosta food"/>
           <figcaption>
             Tosta 4 Quesos, hidangan khas Restaurant Hermoso
           </figcaption>
@@ -88,8 +106,7 @@
         <figure>
           <img
             src="https://cdn.cnn.com/cnnnext/dam/assets/160929100653-essential-spanish-dish-fabada.jpg"
-            class="fabada food"
-          />
+            class="fabada food"/>
           <figcaption>
             Fabada Asturiana, hidangan kacang dari Asturias
           </figcaption>
@@ -100,20 +117,18 @@
       <table>
         <tr>
           <td>
-            Tosta 4 Quesos <br /><span class="desc"
-              >Roti pizza crispy yang dilumuri dengan 4 jenis keju, telur mata
-              sapi, sosis, dan daging sapi.</span
-            >
+            Tosta 4 Quesos <br /><span class="desc">
+			Roti pizza crispy yang dilumuri dengan 4 jenis keju, telur mata
+              sapi, sosis, dan daging sapi.</span>
           </td>
           <td>Rp 50.000,00</td>
         </tr>
 
         <tr>
           <td>
-            Fabada Asturiana <br /><span class="desc"
-              >Sup kacang putih Asturias dilengkapi dengan sosis sapi dan
-              galantine.</span
-            >
+            Fabada Asturiana <br /><span class="desc">
+			Sup kacang putih Asturias dilengkapi dengan sosis sapi dan
+              galantine.</span>
           </td>
           <td>Rp 80.000,00</td>
         </tr>
@@ -176,4 +191,3 @@
     <!-- partial -->
   </body>
 </html>
-
