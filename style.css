@@ -190,7 +190,7 @@ p.introduction {
 }
 
 /* Header */
-header{
+.header {
   background-color: black;
   color: #90c53e;
   height:90px;
