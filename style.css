@@ -196,10 +196,10 @@ p.introduction {
   height:90px;
   font-family: Calibri;
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  z-index: 10;
+/*   left: 0;
+  z-index: 10; */
   font-weight: 100;
   letter-spacing: 2.5px;
 }
