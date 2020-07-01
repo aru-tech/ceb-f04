@@ -136,7 +136,7 @@ p.introduction {
   background-color: black;
   color: white;
   height:110px;
-  font-family: 'EB Garamond';
+  font-family: Calibri;
   width: 100%;
   position: fixed;
   top: 0;
@@ -155,15 +155,13 @@ p.introduction {
 	padding-left:40px;
 }
 .header-list li{
-  float:right;
-  padding:25px 25px;
-  list-style: none;
-  margin-right:20px;
-  font-size:20px;
-  letter-spacing: 1px;
-  
+  	float:right;
+  	padding:25px 25px;
+  	list-style: none;
+  	margin-right:20px;
+  	font-size:20px;
+  	letter-spacing: 1px; 
 }
-
 a{
 	color: white;
 	text-decoration:none;
