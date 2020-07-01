@@ -49,10 +49,17 @@ table {
 }
 
 /* image Menu */
+
 .image-menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+.image-menu-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 figure {
@@ -109,17 +116,34 @@ p.introduction {
   text-align: left;
 }
 
+.food-top {
+  height: 240px;
+  text-align: center;
+}
+
+.paella {
+  border-radius: 50% 50% 0 50%;
+  margin-right: 3px;
+}
+
+.gazpacho {
+  border-radius: 50% 50% 50% 0;
+  margin-left: 3px;
+}
+
 .food {
   height: 240px;
+  text-align: center;
 }
 
 .tosta {
   border-radius: 50% 0 50% 50%;
-  margin-right: 10px;
+  margin-right: 3px;
 }
 
 .fabada {
   border-radius: 0 50% 50% 50%;
+  margin-left: 3px;
 }
 
 /* Header */
@@ -238,28 +262,29 @@ a {
     list-style: none;
   }
 
+  .image-menu-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  figure {
+    width: 50%
+  }
+
+
   .image-menu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .image-menu img {
+  .image-menu-top img {
     text-align: center;
   }
-
-  .food {
-    height: 240px;
-  }
-
-  .tosta {
-    border-radius: 50% 0 50% 50%;
-    margin-right: 10px;
-  }
-
-  .fabada {
-    border-radius: 0 50% 50% 50%;
-    margin-left: 10px;
+  
+  .image-menu img {
+    text-align: center;
   }
 
   .contact-details {
