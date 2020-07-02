@@ -162,15 +162,18 @@ p.introduction {
 .header-logo {
   width: 40%;
 }
+
 .header-list ul {
   display: flex;
   list-style: none;
 }
+
 .header-logo img {
   width: 80px;
   padding-top: 8px;
   padding-left: 40px;
 }
+
 .header-list li {
   line-height: 60px;
   margin-right: 20px;
@@ -178,6 +181,7 @@ p.introduction {
   letter-spacing: 1px;
   padding: 0 20px;
 }
+
 a {
   text-decoration: none;
   color: white;
@@ -193,9 +197,38 @@ a {
 .header input {
   display: none;
 }
+
 .header label {
   display: none;
 }
+
+
+/* Footer */
+.footer {
+  height: 90px;
+  background: #2f5167;
+  text-align: center;
+  color: white;
+
+}
+
+.footer p {
+  color: white;
+
+}
+
+
+.lesson-icon {
+  position: relative;
+  font-size: 20px;
+  padding: 20px 20px;
+}
+
+.lesson {
+  float: left;
+  width: 33.33333%;
+}
+
 
 @media (max-width: 1070px) {
   .header {
@@ -205,13 +238,16 @@ a {
     flex-wrap: wrap;
     align-items: center;
   }
+
   .header-logo {
     display: flex;
   }
+
   .header-logo label {
     display: block;
     margin-left: auto;
   }
+
   .describe {
     flex-direction: column;
     align-items: center;
@@ -226,9 +262,11 @@ a {
   .header-list li {
     width: 100%;
   }
+
   .header-list {
     display: none;
   }
+
   .header label {
     display: block;
     padding: 10px;
@@ -239,7 +277,7 @@ a {
     color: #adadad;
   }
 
-  #icon-logo:checked ~ .header-list {
+  #icon-logo:checked~.header-list {
     display: block;
   }
 }
@@ -289,7 +327,7 @@ a {
   .image-menu-top img {
     text-align: center;
   }
-  
+
   .image-menu img {
     text-align: center;
   }
