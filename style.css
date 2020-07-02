@@ -246,7 +246,6 @@ a {
   .header {
     height: auto;
     padding: 10px;
-    width: 100%;
     flex-wrap: wrap;
     align-items: center;
   }
@@ -347,10 +346,6 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  figure {
-    width: 50%
   }
 
   .image-menu {
