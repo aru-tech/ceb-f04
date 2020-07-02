@@ -242,6 +242,10 @@ a {
   padding: 10px 0;
 }
 
+.caption-top {
+  display: none;
+}
+
 @media (max-width: 1070px) {
   .header {
     height: auto;
@@ -365,3 +369,12 @@ a {
   .header-logo {
     font-size: 18px;
   }
+
+  .caption-top {
+    display: block;
+  }
+  
+  .caption-down {
+    display: none;
+  }
+}
