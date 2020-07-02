@@ -1,5 +1,42 @@
+*{
+  box-sizing: content-box;
+  padding: 0;
+  margin:0;
+}
+body{
+  background: url(https://i.imgur.com/MJAkxbh.png);
+}
 
-  padding: 6px;
+.sample-map{
+  width:100%;
+  height:200px;
+}
+
+.container{
+  max-width:70%;
+  margin:0 auto;
+  padding:10px;
+  font-family:"EB Garamond";
+  font-size: 18px;
+  color:#5d5d5d;
+}
+
+.introduction{
+  text-align:left;
+  line-height: 1.55;
+  margin-bottom:20px;
+}
+
+.introduction p{
+  margin-bottom:20px;
+  text-indent: 50px;
+}
+.introduction strong{
+  font-size: 2em;
+}
+
+.title{
+  padding: 10px;
   text-align: left;
 }
 
@@ -9,10 +46,15 @@
   height: 325px;
 }
 
+.awards{
+  margin-bottom: 20px;
+}
+
 /* describe */
 .describe {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 table {
@@ -25,6 +67,7 @@ table {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .image-menu-top {
@@ -71,10 +114,13 @@ figcaption {
 }
 
 .desc {
-  font-size: 12px;
+  font-size: 16px;
   width: 10px;
 }
-
+.contact{
+  margin-top:20px;
+  margin-bottom: 10px;
+}
 .contact-details {
   display: flex;
 }
@@ -133,7 +179,6 @@ p.introduction {
   letter-spacing: 2.5px;
   display: flex;
   justify-content: space-around;
-  box-shadow: 0 2px 3px gray;
 }
 
 .header-logo {
@@ -182,29 +227,21 @@ a {
 
 /* Footer */
 .footer {
-  height: 90px;
   background: #2f5167;
   text-align: center;
   color: white;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
 .footer p {
   color: white;
 
 }
-
-
-.lesson-icon {
-  position: relative;
-  font-size: 20px;
-  padding: 20px 20px;
+.lesson{
+  padding: 10px 0;
 }
 
-.lesson {
-  float: left;
-  width: 33.33333%;
-}
 @media (max-width: 1070px) {
   .header {
     height: auto;
@@ -254,6 +291,30 @@ a {
 
   #icon-logo:checked~.header-list {
     display: block;
+  }
+
+  .contact-details{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-details p, li{
+    text-align: center;
+  }
+  .contact-details h3{
+    margin-bottom: 10px;
+  }
+
+  .contact-details div{
+    margin-bottom: 20px;
+  }
+
+  .copyright{
+    display:none;
+  }
+  footer{
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
   }
 }
 
